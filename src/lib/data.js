@@ -7,7 +7,7 @@ export const personalInfo = {
 export const contactDetails = {
   email: "1810.nehal@gmail.com",
   phone: "8459194542",
-  linkedin: "www.linkedin.com/in/nehal-mehta-5840a5373"
+  linkedin: "https://www.linkedin.com/in/nehal-mehta-5840a5373"
 };
 
 export const experienceData = [
