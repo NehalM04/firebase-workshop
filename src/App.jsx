@@ -15,27 +15,27 @@ function App() {
   const user = useSelector(selectUser);
   const dispatch = useDispatch();
 
-  // useEffect(() => {
-  //   const unsubscribe = onAuthStateChanged(auth, (userAuth) => {
-  //     if (userAuth) {
-  //       dispatch(
-  //         login({
-  //           email: userAuth.email,
-  //           uid: userAuth.uid,
-  //           displayName: userAuth.displayName,
-  //         })
-  //       );
-  //     } else {
-  //       dispatch(logout());
-  //     }
-  //   });
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (userAuth) => {
+      if (userAuth) {
+        dispatch(
+          login({
+            email: userAuth.email,
+            uid: userAuth.uid,
+            displayName: userAuth.displayName,
+          })
+        );
+      } else {
+        dispatch(logout());
+      }
+    });
 
-  //   return unsubscribe;
-  // }, [dispatch]);
+    return unsubscribe;
+  }, [dispatch]);
 
-  // const handleLogout = () => {
-  //   signOut(auth);
-  // };
+  const handleLogout = () => {
+    signOut(auth);
+  };
 
   return (
     <Router>
