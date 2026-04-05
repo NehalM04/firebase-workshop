@@ -1,40 +1,36 @@
 export const personalInfo = {
-  name: "Srushti Raybhoge",
-  title: "Software Engineer 2 at Addepar",
-  highlight: "Google Developer Expert - Firebase",
+  name: "Nehal Mehta",
+  title: "Enthusiast Student Developer",
+  highlight: "Passionate about learning and building projects in the tech world.",
 };
 
 export const contactDetails = {
-  email: "xyz@gmail.com",
-  phone: "1234567890",
-  linkedin: "https://www.linkedin.com/in/srushti-raybhoge/"
+  email: "1810.nehal@gmail.com",
+  phone: "8459194542",
+  linkedin: "www.linkedin.com/in/nehal-mehta-5840a5373"
 };
 
 export const experienceData = [
   {
-    companyName: "Addepar",
+    companyName: "Wooferz Technologies Pvt Ltd",
     roles: [
       {
-        title: "Software Engineer 2",
-        duration: "July 2024 - Present"
+        title: "Software Development Engineer Intern",
+        duration: "October 2025 - Present"
       }
     ]
   },
   {
-    companyName: "Bajaj Finserv Health Ltd",
+    companyName: "Codeware Developer",
     roles: [
       {
-        title: "Software Development Engineer",
-        duration: "August 2022 - June 2024"
+        title: "Gaining Hands-on Real time Projects",
+        duration: "January 2026 - Present"
       },
-      {
-        title: "Associate Software Development Engineer",
-        duration: "August 2021 - September 2022"
-      }
     ]
   }
 ];
 
 export const technologiesData = [
-  "Java", "JavaScript", "React", "Python", "Firebase"
+  "HTML", "CSS", "JavaScript", "React", "Python", "Firebase","Flutter", "Git", "GitHub"
 ];
